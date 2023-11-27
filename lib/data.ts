@@ -3,6 +3,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import nepaFoodImg from "@/public/nepafood.png";
 import hawkaiImg from "@/public/hawkai.png";
 import nepalyImg from "@/public/nepaly.png";
+import portfolioImg from "@/public/portfolio.png";
 
 export const links = [
   {
@@ -65,6 +66,13 @@ export const projectsData = [
       "Travel Guide Webpage for tourists to give better flexibility during visit to Nepal",
     tags: ["React", "styled-components"],
     imageUrl: nepalyImg,
+  },
+  {
+    title: "Personal Portfolio",
+    description:
+      "Personal Portfolio Website to showcase my skills and projects.",
+    tags: ["Next.js", "React Icons", "Tailwind", "Framer Motion", "Resend"],
+    imageUrl: portfolioImg,
   },
 ] as const;
 
