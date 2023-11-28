@@ -5,6 +5,8 @@ import hawkaiImg from "@/public/hawkai.png";
 import nepalyImg from "@/public/nepaly.png";
 import portfolioImg from "@/public/portfolio.png";
 
+const URL = "https://github.com/bajrayejoon";
+
 export const links = [
   {
     name: "Home",
@@ -52,6 +54,7 @@ export const projectsData = [
       "A minimalistic restaurant website. It has features like menu, contact form and newsletter.",
     tags: ["React", "React Best Practices", "CSS", "Hooks"],
     imageUrl: nepaFoodImg,
+    githubUrl: `${URL}/NepaFood`,
   },
   {
     title: "HawkAi Site- Intern Work",
@@ -59,6 +62,7 @@ export const projectsData = [
       "Official website of HawkAi Pvt. Ltd. Revamped company site with Next.js and different new technologies.",
     tags: ["TypeScript", "Next.js", "Tailwind", "HygraphCMS", "Framer Motion"],
     imageUrl: hawkaiImg,
+    githubUrl: "https://hawkai.online",
   },
   {
     title: "Nepa.ly",
@@ -66,6 +70,7 @@ export const projectsData = [
       "Travel Guide Webpage for tourists to give better flexibility during visit to Nepal",
     tags: ["React", "styled-components"],
     imageUrl: nepalyImg,
+    githubUrl: `${URL}/nepa.ly`,
   },
   {
     title: "Personal Portfolio",
@@ -73,6 +78,7 @@ export const projectsData = [
       "Personal Portfolio Website to showcase my skills and projects.",
     tags: ["Next.js", "React Icons", "Tailwind", "Framer Motion", "Resend"],
     imageUrl: portfolioImg,
+    githubUrl: `${URL}/Binaya_Portfolio`,
   },
 ] as const;
 
