@@ -42,7 +42,7 @@ export const experiencesData = [
     description:
       "I worked as a front-end developer for 6+ months in this job. I also upskilled to the full stack. Revamped company site with Next.js, managed diverse client projects emphasizing management systems. Led content creation, authored project proposals, conducted QA, implemented bug tracking, and actively contributed to team building.",
     icon: React.createElement(LuGraduationCap),
-    date: "March - August, 2023",
+    date: "March - September, 2023",
   },
   ,
 ] as const;
