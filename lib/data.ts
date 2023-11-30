@@ -4,7 +4,7 @@ import nepaFoodImg from "@/public/nepafood.png";
 import hawkaiImg from "@/public/hawkai.png";
 import nepalyImg from "@/public/nepaly.png";
 import portfolioImg from "@/public/portfolio.png";
-import zenImg from "@public/zenvibe.png";
+import zenImg from "@/public/zen.png";
 
 const URL = "https://github.com/bajrayejoon";
 
@@ -49,13 +49,12 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-    {
+  {
     title: "ZenVibe",
-    description:
-      "A minimalistic yoga landing website. Animation and Design",
-    tags: ["NextJs", "T", "Tailwind", "Framer Motion", "TypeScript"],
+    description: "A minimalistic yoga landing website. Animation and Design",
+    tags: ["NextJs", "Tailwind", "Framer Motion", "TypeScript"],
     imageUrl: zenImg,
-    githubUrl: `${URL}/zenvibe`,
+    githubUrl: `${URL}/ZenVibe`,
   },
   {
     title: "NepaFood",
@@ -89,7 +88,6 @@ export const projectsData = [
     imageUrl: portfolioImg,
     githubUrl: `${URL}/Binaya_Portfolio`,
   },
- 
 ] as const;
 
 export const skillsData = [
