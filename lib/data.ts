@@ -5,6 +5,7 @@ import hawkaiImg from "@/public/hawkai.png";
 import nepalyImg from "@/public/nepaly.png";
 import portfolioImg from "@/public/portfolio.png";
 import zenImg from "@/public/zen.png";
+import adminImg from "@/public/admin.png";
 
 const URL = "https://github.com/bajrayejoon";
 
@@ -72,14 +73,7 @@ export const projectsData = [
     imageUrl: hawkaiImg,
     githubUrl: "https://hawkai.online",
   },
-  {
-    title: "Nepa.ly",
-    description:
-      "Travel Guide Webpage for tourists to give better flexibility during visit to Nepal",
-    tags: ["React", "styled-components"],
-    imageUrl: nepalyImg,
-    githubUrl: `${URL}/nepa.ly`,
-  },
+
   {
     title: "Personal Portfolio",
     description:
@@ -87,6 +81,21 @@ export const projectsData = [
     tags: ["Next.js", "React Icons", "Tailwind", "Framer Motion", "Resend"],
     imageUrl: portfolioImg,
     githubUrl: `${URL}/Binaya_Portfolio`,
+  },
+  {
+    title: "Admin Dashboard - AdminSync",
+    description: "Admin Dashboard Template for CRUD operations.",
+    tags: ["React", "Flowbite", "Tailwind"],
+    imageUrl: adminImg,
+    githubUrl: `${URL}/AdminSync`,
+  },
+  {
+    title: "Nepa.ly",
+    description:
+      "Travel Guide Webpage for tourists to give better flexibility during visit to Nepal",
+    tags: ["React", "styled-components"],
+    imageUrl: nepalyImg,
+    githubUrl: `${URL}/nepa.ly`,
   },
 ] as const;
 
