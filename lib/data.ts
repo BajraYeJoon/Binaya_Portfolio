@@ -6,6 +6,7 @@ import nepalyImg from "@/public/nepaly.png";
 import portfolioImg from "@/public/portfolio.png";
 import zenImg from "@/public/zen.png";
 import adminImg from "@/public/admin.png";
+import reserveImg from "@/public/homepage.png";
 
 const URL = "https://github.com/bajrayejoon";
 
@@ -50,6 +51,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Reserve",
+    description:
+      "A Hotel Reservation System. It has features like booking multiple rooms, details, Booked dates, Availability check.",
+    tags: ["ReactJs", "REST API", "NodeJs", "TypeScript"],
+    imageUrl: reserveImg,
+    githubUrl: `https://reserve-phi.vercel.app/`,
+  },
   {
     title: "ZenVibe",
     description: "A minimalistic yoga landing website. Animation and Design",
