@@ -47,7 +47,14 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "March - September, 2023",
   },
-  ,
+  {
+    title: "Assosciate Frontend Developer",
+    location: "Sunai Technologies",
+    description:
+      "I worked as a front-end developer for 2+ months in this job. I worked on the project of AI drink recommendation UI design and implemented a fully fledged application. Managed and developed components for Damaru- A honey like website for deals and coupons. Guided Intern on various next js factors, clean code, authentication",
+    icon: React.createElement(LuGraduationCap),
+    date: "April - June, 2024",
+  },
 ] as const;
 
 export const projectsData = [
